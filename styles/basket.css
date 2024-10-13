@@ -1,5 +1,69 @@
 .basket {
-    height: 100%;
+    position: sticky;
+    top: 80px;
+    height: calc(100vh - 80px);
     width: 20%;
+    min-width: 300px;
     box-shadow: -2px 0 6px 0 rgb(0, 0, 0, 0.2);
+}
+
+.basket-title {
+    height: 60px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ORDERS ORDER CONTAINER*/
+
+.orders-container {
+    padding: 10px;
+    max-height: calc(100vh - 282px);
+    overflow-y: auto;
+    border-bottom: 1px solid lightgray;
+}
+
+.order-template {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.order-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-controls img {
+    height: 24px;
+}
+
+.order-controls img:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+
+/*CHECKOUT PRICE CONTAINER IN BASKET*/
+
+.price-checkout-container {
+    min-height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checkout-row {
+    padding: 8px;
+
+    display: flex;
+    justify-content: space-between;
 }

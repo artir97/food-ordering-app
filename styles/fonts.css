@@ -29,3 +29,17 @@ body {
     color: #fd963d;
     font-weight: bold;
 }
+
+.basket-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.checkout-row {
+    color: #8c8c8c;
+}
+
+.checkout-row:last-child {
+    color: #000;
+    font-weight: bold;;
+}

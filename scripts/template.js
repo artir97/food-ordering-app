@@ -14,3 +14,22 @@ function dishCardTemplate(i) {
         `
     )
 }
+
+function orderCardTemplate() {
+    return (
+        `     
+       <div class="order-template">
+            <div>
+                FOOD NAME
+            </div>
+            <div class="order-controls">
+                <img src="./assets/icons/minus-icon.png" alt="minus icon">
+                <div> 5x </div>
+                <img src="./assets/icons/plus-icon.png" alt="plus icon">
+                <div>25€</div>
+                <img src="./assets/icons/trash-icon.png" alt="trash icon">
+            </div>
+        </div>
+        `
+    )
+}
