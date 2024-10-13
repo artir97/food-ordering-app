@@ -1,0 +1,31 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.restaurant-name {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.accent-color {
+    color: #fd963d;
+}
+
+.dish-menu-selection {
+    font-weight: bold;
+    color: #828586;
+}
+
+.main-dish-header span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.dish-card-data .dish-title {
+    font-weight: bold;
+}
+
+.dish-card-data .dish-price {
+    color: #fd963d;
+    font-weight: bold;
+}

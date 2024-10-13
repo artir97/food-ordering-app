@@ -1,0 +1,36 @@
+.dish-card {
+    height: 120px;
+    border: 1px solid lightgray;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish-card:hover {
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+.dish-card img {
+    height: 24px;
+    padding: 4px;
+    border: 1px solid lightgray;
+    border-top: none;
+    border-right: none;
+    border-top-right-radius: 10px;
+}
+
+.dish-card img:hover {
+    scale: 1.2;
+    border: none;
+}
+
+.dish-card-data {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}

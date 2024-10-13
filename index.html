@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body onload="init()">
     <nav>
         <div>
             <img class="logo" src="./assets/img/Logo.png" alt="company logo">
@@ -21,14 +21,33 @@
     </nav>
     <div class="main-content">
         <div class="food-content">
-            <div class="header">
-                <img class="header-img" src="./assets/img/chicken-header.jpg" alt="image of fried chicken">
+            <img class="header-img" src="./assets/img/chicken-header.jpg" alt="image of fried chicken">
+            <div class="chicken-logo">
+                <img src="./assets/img/chicken-logo.jpg" alt="a chicken on grass fields">
             </div>
+            <div class="restaurant-data">
+                <div class="restaurant-name"> Chicken King </div>
+                <div class="accent-color"> Bewertung (5 von 5 Sternen)</div>
+            </div>
+            <div class="dish-menu-selection">
+                <img src="./assets/icons/arrow.png" alt="arrow right icon" >
+                <div>Hauptgerichte</div>
+            </div>
+            <div class="main-dish-header">
+                <img src="./assets/img/fried-chicken.jpg" alt="image of fried chicken">
+                <span>Hauptgerichte</span>
+            </div>
+            <div id="main-dishes" class="main-dishes">
 
+            </div>
         </div>
         <div class="basket">
 
         </div>
     </div>
+
+    <script src="./scripts/db.js"></script>
+    <script src="./scripts/template.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
