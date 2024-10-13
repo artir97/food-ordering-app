@@ -1,1 +1,5 @@
-let mainDishes = [];
+let mainDishes = [
+    {
+      "name": ""
+    },
+];
