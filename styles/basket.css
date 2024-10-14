@@ -67,3 +67,27 @@
     display: flex;
     justify-content: space-between;
 }
+
+.mobile-checkout,
+.mobile-checkout-back{
+    height: 60px;
+    width: 200px;
+    background-color: #ff7f00;
+    border-radius: 10px;
+
+    position: sticky;
+    bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-checkout:hover,
+.mobile-checkout-back:hover {
+    background-color: #fb8c1f;
+    cursor: pointer;
+}

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/basket.css">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 <body onload="init()">
     <nav>
@@ -66,6 +67,13 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div onclick="showCheckoutMobile()" id="mobile-checkout" class="mobile-checkout">
+        <div>Warenkorb</div>
+        <div id="price-total-mobile"></div>
+    </div>
+    <div onclick="showDishes()" id="mobile-checkout-back" class="mobile-checkout-back">
+        <div>zurück</div>
     </div>
 
     <script src="./scripts/db.js"></script>

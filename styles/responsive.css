@@ -1,0 +1,36 @@
+
+@media(max-width: 1000px) {
+    .chicken-logo {
+        display: none;
+    }
+
+    .restaurant-data {
+        margin: 0;
+    }
+}
+
+@media(max-width: 850px) {
+    .basket {
+        display: none;
+        width: 100%;
+    }
+
+    .food-content {
+        width: 100%;
+    }
+
+    .mobile-checkout {
+        display: flex;
+    }
+
+    .mobile-checkout-back {
+        display: none
+    }
+}
+
+@media(max-width: 450px) {
+    .dish-description {
+        display: none;
+    }
+
+}

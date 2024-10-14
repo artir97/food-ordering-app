@@ -4,7 +4,7 @@ function dishCardTemplate(i) {
          <div onclick="addToBasket(${i})" class="dish-card">
             <div class="dish-card-data">
                 <span class="dish-title">${mainDishes[i].name}</span>
-                <span>${mainDishes[i].description}</span>
+                <span class="dish-description">${mainDishes[i].description}</span>
                 <div class="dish-price">${mainDishes[i].price} €</div>
             </div>
             <div onclick="addToBasket(${i})">
