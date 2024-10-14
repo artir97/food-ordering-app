@@ -23,11 +23,11 @@ function orderCardTemplate(i) {
                 ${basket[i].name}
             </div>
             <div class="order-controls">
-                <img src="./assets/icons/minus-icon.png" alt="minus icon">
+                <img onclick="removeAmountInBasket(${i})" src="./assets/icons/minus-icon.png" alt="minus icon">
                 <div>${basket[i].amount} X</div>
-                <img src="./assets/icons/plus-icon.png" alt="plus icon">
+                <img onclick="addAmountInBasket(${i})" src="./assets/icons/plus-icon.png" alt="plus icon">
                 <div>${(basket[i].price * basket[i].amount).toFixed(2)} €</div>
-                <img src="./assets/icons/trash-icon.png" alt="trash icon">
+                <img onclick="deleteFromBasket(${i})" src="./assets/icons/trash-icon.png" alt="trash icon">
             </div>
         </div>
         `
